@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    background-color: #103D0D;
+}
+header{
+    background: linear-gradient(to top, #103D0D, #268F1E, #3ADC2F);
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 0;
+}
+div#menus{
+    text-align: left;
+}
+main{
+    padding-top: 0px;
+    margin: 200px;
+    background-color: #f0f0f0;
+}
+h1{
+    background: linear-gradient(to right, #103D0D, #f0f0f0);
+    text-align: ;
+}
+h1#cabecalho{
+    background: linear-gradient(to top, #103d0d00, #268f1e00, #3bdc2f00);
+}
+section{
+    margin: 10px;
+}
+footer{
+    background-color: #268F1E;
+}
