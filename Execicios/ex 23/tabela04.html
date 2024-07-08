@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <caption> Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">GRUPO</th>
+                <th scope="col">NOMES</th>
+                <th colspan="3" scope="colgroup">FILMES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">MULHERES</th>
+                <td> Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Sousa</td>
+                <td>Hulk</td>
+                <td>Inceot</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblivia</td>
+                <td>Matriz</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">HOMENS</th>
+                <td>Bruno Mendoça</td>
+                <td>Intócaveis</td>
+                <td>Amnési</td>
+                <td>Gladiadores</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-le</td>
+                <td>OldBoy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star war</td>
+                <td>Taxí Drivw</td>
+                <td>Toy Store</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">TOTAL</th>
+                <td>100 000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
